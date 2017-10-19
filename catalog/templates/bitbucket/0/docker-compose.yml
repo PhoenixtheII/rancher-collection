@@ -3,7 +3,7 @@ version: '2'
 services:
 
   bitbucket:
-    image: atlassian/bitbucket-server:5.1
+    image: atlassian/bitbucket-server:5.4.1
     volumes_from:
       - bitbucket-data
     ports:
